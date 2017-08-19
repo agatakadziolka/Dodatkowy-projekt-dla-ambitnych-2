@@ -1,0 +1,26 @@
+{
+  "name": "dodatkowy-projekt-dla-ambitnych-2",
+  "version": "1.0.0",
+  "description": "Dodatkowy projekt dla ambitnych 2",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "projekt",
+    "dla",
+    "ambitnych"
+  ],
+  "author": "Agata Kądziołka",
+  "license": "ISC",
+  "devDependencies": {
+    "grun": "^0.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}

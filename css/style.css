@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+* {
+  font-family: "Raleway", sans-serif; }
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10; }
+  header img {
+    padding-top: 20px; }
+  header nav {
+    padding-top: 20px; }
+    header nav a {
+      padding-right: 60px;
+      text-transform: uppercase;
+      color: #d8d8db;
+      line-height: 24px;
+      font-weight: bold;
+      font-size: 13px; }
+
+.jumbotron {
+  background: url("../images/jumbotron-bg.jpg");
+  color: #fff;
+  position: relative; }
+  .jumbotron h1 {
+    text-transform: uppercase;
+    margin: 155px 0 40px 0;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif; }
+  .jumbotron p {
+    font-size: 16px;
+    color: #d8d8db; }
+  .jumbotron button {
+    margin: 75px 0 145px 0;
+    text-transform: uppercase; }
+
+.cards {
+  margin-top: 100px; }
+  .cards img {
+    margin-bottom: 25px; }
+  .cards h2, .cards p {
+    font-size: 14px; }
+  .cards h2 {
+    font-weight: bold;
+    text-transform: uppercase; }
+  .cards p {
+    margin: 25px 0 70px 0; }
+
+.gallery [class*="col-"] {
+  padding: 0; }
+  .gallery [class*="col-"] img {
+    width: 100%; }
+
+.gallery-box {
+  position: relative; }
+  .gallery-box .layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(232, 85, 84, 0.7);
+    opacity: 0;
+    transition: ease-in-out 0.8s; }
+    .gallery-box .layer:hover {
+      opacity: 1; }
+    .gallery-box .layer h3, .gallery-box .layer p {
+      color: #fff;
+      font-size: 14px; }
+    .gallery-box .layer h3 {
+      margin-top: 30%;
+      font-weight: bold; }
+
+.teams {
+  margin-top: 100px; }
+  .teams h2 {
+    font-size: 22px; }
+  .teams span {
+    color: #e85554;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .teams p {
+    font-size: 14px;
+    margin-top: 25px; }
+  .teams i {
+    font-size: 20px;
+    color: #c6cacc;
+    border: 1px solid #c6cacc;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; }
+
+.clients {
+  margin-top: 100px; }
+  .clients [class*="col-"] {
+    padding: 0; }
+  .clients .clients-left {
+    background: url("../images/client-bg.jpg");
+    height: 500px;
+    background-size: cover; }
+  .clients .carousel {
+    height: 500px;
+    background: #53354a;
+    color: #fff; }
+    .clients .carousel .carousel-inner .item {
+      padding: 50px 150px 50px 50px; }
+      .clients .carousel .carousel-inner .item p {
+        font-size: 30px; }
+      .clients .carousel .carousel-inner .item span {
+        font-size: 13px; }
+
+.download {
+  margin-top: 100px; }
+  .download h1 {
+    font-size: 28px; }
+  .download p {
+    font-size: 13px;
+    font-weight: bold; }
+  .download button {
+    margin-top: 40px; }
+
+footer {
+  margin-top: 100px;
+  padding-bottom: 80px;
+  background: #3a3e64; }
+  footer h3, footer p, footer address {
+    font-size: 14px; }
+  footer h3 {
+    font-weight: bold;
+    padding-top: 70px;
+    color: #fff; }
+  footer p, footer address {
+    color: #afb0bc; }
+  footer .fa {
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; }
+  footer p, footer address, footer .fa {
+    margin-top: 17px; }
+
+.copyright {
+  background: #313454;
+  color: #808080;
+  padding: 30px 0 30px 0; }
+
+@media screen and (max-width: 765px) {
+  header .logo {
+    text-align: center; }
+  header nav {
+    text-align: center; }
+    header nav a {
+      padding: 0 20px 0 20px; }
+
+  .jumbotron button {
+    margin: 80px 0 20px 0; }
+
+  .teams .card {
+    text-align: center;
+    margin-bottom: 20px; }
+
+  .clients .clients-left {
+    display: none; }
+  .clients .carousel .carousel-inner .item {
+    padding: 60px 50px 0 50px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  header .logo {
+    text-align: center; }
+  header nav {
+    text-align: center; }
+    header nav a {
+      padding: 0 20px 0 20px; }
+
+  .jumbotron button {
+    margin: 80px 0 20px 0; }
+
+  .teams .card {
+    text-align: center;
+    margin-bottom: 30px; }
+
+  .clients .clients-left {
+    display: none; }
+  .clients .carousel .carousel-inner .item {
+    padding: 60px 50px 0 50px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .teams .card {
+    text-align: center;
+    margin-bottom: 35px; } }
+
+/*# sourceMappingURL=style.css.map */
